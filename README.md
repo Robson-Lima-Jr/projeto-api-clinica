@@ -13,4 +13,8 @@
 
 Os documento de fluxo e de componente estão no arquivo:
 
-![Documtento Componente](./documentation/prj21-componente.png)
+### Documentação de Fluco
+[Documento de Fluxo](./documentation/fluxo.md)
+
+### Componentes da API:
+![Documento Componente](./documentation/prj21-componente.png)
