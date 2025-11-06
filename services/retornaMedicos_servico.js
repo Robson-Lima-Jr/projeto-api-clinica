@@ -11,5 +11,6 @@ async function retornaMedicos() {
 
     return medicos;
 }
+// função que retorna os médicos do banco de dados
 
 export default retornaMedicos;
