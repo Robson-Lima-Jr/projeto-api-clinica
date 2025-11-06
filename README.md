@@ -13,7 +13,7 @@
 
 Os documento de fluxo e de componente estão no arquivo:
 
-### Documentação de Fluco
+### Documentação de Fluxo
 [Documento de Fluxo](./documentation/fluxo.md)
 
 ### Componentes da API:
