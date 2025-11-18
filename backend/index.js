@@ -19,5 +19,5 @@ app.get('/medicos', async (req, res) =>{
 
 app.listen(port, () => {
     const data = new Date();
-    console.log(`O servidor foi iniciado, na data de: ${data.toLocaleDateString()} no horário ${data.toLocaleTimeString()}`);
+    console.log(`O servidor foi iniciad na porta ${port}, na data de: ${data.toLocaleDateString()} no horário ${data.toLocaleTimeString()}`);
 })
