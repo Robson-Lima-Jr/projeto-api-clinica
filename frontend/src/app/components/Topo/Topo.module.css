@@ -1,0 +1,13 @@
+.fundo_topo {
+    width: 100%;
+    min-height: 10vh;
+    margin: 0px auto;
+    padding: 20px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: #2055de;
+}
