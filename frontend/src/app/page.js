@@ -3,6 +3,7 @@ import { retornaMedicos } from "./data/dados.js";
 
 import Topo from "./components/Topo";
 import Card from "./components/Card";
+import Rodape from "./components/Rodape";
 
 export default async function Home() {
   const medicos = await retornaMedicos();
@@ -26,6 +27,8 @@ export default async function Home() {
           ))}
         </div>
       </main>
+
+      <Rodape />
     </div>
   );
 }

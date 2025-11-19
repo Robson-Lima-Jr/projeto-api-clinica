@@ -5,6 +5,7 @@
     padding: 0px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     box-sizing: border-box;
+    scroll-behavior: smooth;
 }
 
 html, body {
