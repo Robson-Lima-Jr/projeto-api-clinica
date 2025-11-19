@@ -18,3 +18,9 @@ Os documento de fluxo e de componente estão no arquivo:
 
 ### Componentes da API:
 ![Documento Componente](./documentation/prj21-componente.png)
+
+# Update:
+
+## Versão 2:
+
+- Na quarta missão de **Criando sitemas Fullstack**, temos um exercicio em que pegamos a api e aplicamos, no front, fazendo a primeira aplicação, como eu queria testar primeiro uma api interna e não postada, deixei ela dentro do projeto [Pasta BackEnd](./backEnd/). As configurações estão na pasta do front, então não funcionará se baixar, pois o banco de dados ficou disponivel so pra mim. mas o codigo funciona normalment.

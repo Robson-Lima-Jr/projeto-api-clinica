@@ -5,6 +5,8 @@ import retornaMedicos from './services/retornaMedicos_servico.js';
 
 const app = express();
 app.use(cors());
+
+const port = 8080;
 //usando o cors apos a criação do app
 
 app.get('/medicos', async (req, res) =>{
@@ -15,7 +17,7 @@ app.get('/medicos', async (req, res) =>{
     //retornando os médicos em formato JSON
 })
 
-app.listen(8080, () => {
+app.listen(port, () => {
     const data = new Date();
-    console.log(`O servidor foi iniciado, na data de: ${data.toLocaleDateString()} no horário ${data.toLocaleTimeString()}`);
+    console.log(`O servidor foi iniciad na porta ${port}, na data de: ${data.toLocaleDateString()} no horário ${data.toLocaleTimeString()}`);
 })

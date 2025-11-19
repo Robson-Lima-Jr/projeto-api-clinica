@@ -1,0 +1,53 @@
+.fundo_topo {
+    width: 100%;
+    min-height: 10vh;
+    margin: 0px auto;
+    padding: 40px 20px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+
+    text-align: center;
+    background-color: #2055de;
+    color:white;
+}
+
+.topo_titulo {
+    max-width: 1200px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.topo_info {
+    width: 100%;
+    max-width: 1200px;
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.info_card {
+    max-width: 500px;
+    flex: 0 0 30%;
+    padding: 5px 0px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+
+    background-color: #4270e4;
+    border-radius: 5px;
+}
+
+@media screen and (max-width: 768px){
+    .info_card {
+        max-width: 360px;
+        flex: 0 0 100%;
+    }
+}

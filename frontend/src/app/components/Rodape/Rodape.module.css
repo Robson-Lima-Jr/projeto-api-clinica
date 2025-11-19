@@ -1,0 +1,34 @@
+.rodape_fundo {
+    width: 100%;
+    padding: 35px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 20px;
+
+    color: white;
+    background-color: #111827;
+}
+
+.rodape_descricao {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.rodape_contatos {
+    display: flex;
+    gap: 10px;
+}
+
+.rodape_contatos a {
+    color: white;
+}
+
+.rodape_contatos a:hover {
+    color: #2055de;
+    transition: 0.4s;
+}
