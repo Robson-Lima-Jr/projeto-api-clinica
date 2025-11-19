@@ -1,0 +1,60 @@
+.container_card {
+    width: 100%;
+    width: 400px;
+    height: 300px;
+    padding: 15px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.301);
+}
+
+.card_logo {
+    width: 45px;
+    height: 45px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    border-radius: 50%;
+    color: white;
+    background-color: #2055de;
+}
+
+.nome_desc {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+.contatos {
+    width: 100%;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: flex-start;
+}
+
+.contatos div {
+    display: flex;
+    gap: 10px;
+    color: #2055de;
+    font-weight: bold;
+}
+
+@media screen and (max-width: 960px) {
+    .container_card {
+        width: 350px;
+    }
+}
